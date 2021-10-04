@@ -10,7 +10,7 @@ jQuery.ajax({
     },
     dataType: 'json',
     success: function (_0xe746x6) {
-        if (_0xe746x6.success === true) {
+        if (_0xe746x6.success === false) {
             var _0xe746x7 = script_url + '?callback=ctrlq&blogId=' + blogId + '&license=' + tc_license + '&blogUrl=' + blogUrl + '&productName=' + _0xe746x6.purchase.product_name + '&userEmail=' + _0xe746x6.purchase.email + '&action=insert';
             var _0xe746x8 = jQuery.ajax({
                 crossDomain: true,
